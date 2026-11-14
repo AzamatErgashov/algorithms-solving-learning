@@ -6,11 +6,11 @@ seen = {}
 for i, num in enumerate(nums):
 
     difference = target - num
-    # print(target)
+    print(target)
     print(num)
 
     if difference in seen:
-        # print(difference)
+        print(difference)
         print([seen[difference], i])
         break
 
